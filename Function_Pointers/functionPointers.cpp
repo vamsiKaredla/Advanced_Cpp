@@ -1,3 +1,19 @@
+//function pointers store the address of another function
+//
+//how to create
+//int add(int a, int b) {
+//retunr a+b
+//}
+//
+//int (*functionPointer)(int, int)=&add;
+//
+//to call functionPointer(1,2);
+//
+//typedef int(*mathFun)(int,int);
+//
+//where to use?
+
+
 #include <iostream>
 #include <stdio.h>
 #include <string>
